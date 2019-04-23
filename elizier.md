@@ -53,7 +53,7 @@ Next, I must ssh through the intermediary system as follows:
 
 We can optimize these solutions by making local scripts that holds users servers and ports and customize the ~/.ssh/config file.
 
-As a DevOps watcher, these kind of solutions is to keep it simple but has to be optimized at the end and encrypted 'cause in release environments its opens serious backdoor problems. 
+*As a DevOps watcher, these kind of solutions is to keep it simple but has to be optimized at the end and encrypted 'cause in release environments its opens serious backdoor problems.
 
 That's all folks.
 

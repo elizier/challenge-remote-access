@@ -46,7 +46,7 @@ Next connecting to the tunnel will actually connect to the second host, ''machin
 Basically, what we need to do is :
 I can only access a remote server named ‘serverB’ via ssh by first login into an intermediary server called ‘ServerA’. First, login to server:  
 
-`$ ssh -D8000 user1@serverA`  
+`$ ssh -D 8000 user1@serverA`  
 
 Next, I must ssh through the intermediary system as follows:  
 `$ ssh -D 8000 user2@serverB`
